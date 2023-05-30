@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.general {
+  display: flex;
+  justify-content:center;
+  max-width: 960px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.primera-columna {
+  display: inline-flex;
+  width: 260px;
+  flex-direction: column;
+  margin: 0 0 0 0px;
+}
+
+.primera-columna h2 {
+  width: 100%;
+}
+
+.segunda-columna {
+  display: inline-flex;
+  width: 700px;
+  flex-direction: column;
+}
+
+.segunda-columna ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.segunda-columna li {
+  list-style: none;
+  margin: 15px;
+  width: 33.3%;
+  margin-top: 0;
+}
